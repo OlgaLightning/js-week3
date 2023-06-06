@@ -1,0 +1,82 @@
+body {
+    margin: auto 0;
+    background-color: bisque;
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    margin: 50px 0;
+    padding-bottom: 100px;
+}
+
+.title {
+    border-bottom: 2px solid bisque;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 550px;
+}
+
+h1 {
+    font-family: 'Sigmar', cursive;
+    color: rgb(55, 54, 54);
+    font-size: 46px;
+}
+
+.input-box {
+    padding-top: 40px;
+    display: flex;
+    justify-content: center;
+}
+
+input::placeholder {
+    color: rgb(245, 183, 106, 0.5);
+}
+
+input::placeholder,
+li,
+.space {
+    font-family: 'Prompt', sans-serif;
+}
+
+.space {
+    border: 2px solid rgb(145, 224, 232);
+    padding: 5px 140px 5px 20px;
+    margin-right: 10px;
+    font-size: 20px;
+    color: rgb(62, 62, 62);
+}
+
+button {
+    background-color: rgb(145, 224, 232);
+    padding: 6px 15px;
+    font-size: 30px;
+    color: #fff;
+    border: none;
+}
+
+button:hover {
+    background-color: rgb(26, 95, 204);
+}
+
+.list-items {
+    height: 200px;
+    padding-left: 22px;
+    padding-top: 10px;
+}
+
+li {
+    font-size: 25px;
+    color: rgb(56, 56, 56);
+}
+
+.crossed {
+    text-decoration: line-through;
+    color: rgb(144, 144, 144);
+}
